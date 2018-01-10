@@ -65,7 +65,7 @@ $(document).ready(function() {
 		autoplay:true,
 		autoplaySpeed:2000,
 		// dots:true,
-		infinite:false,
+		infinite:true,
 		responsive: [
     {
       breakpoint: 1024,

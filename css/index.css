@@ -85,6 +85,7 @@ img {vertical-align: middle;}
 }
 .active, .dot:hover {
   /* background-color: #71717    1; */
+  text-decoration: none;
 }
 
 /* Fading animation */
@@ -126,7 +127,7 @@ img {vertical-align: middle;}
     text-align: center;
     padding: 10px;
     border:2px solid transparent;
-    height:320px;
+    height:370px;
 }
 
 .services:hover{
@@ -204,4 +205,8 @@ a:hover{
 }
 ul{
     margin-top:5px;
+}
+
+.navigation{
+    text-decoration: none;
 }
