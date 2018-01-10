@@ -137,6 +137,12 @@ img {vertical-align: middle;}
     height:370px;
 }
 
+.services .icon{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
 .services:hover{
     border: 2px dashed black;
 }
