@@ -3,7 +3,14 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {width:200px}
 img {vertical-align: middle;}
 @font-face {
-    font-family:"Kelson Sans Bold";src:url("../fonts/Kelson Sans Bold.otf?") format("otf");font-weight:normal;font-style:normal;
+    font-family:"Kelson Sans Bold";
+    src: url("../fonts/Kelson Sans Bold.otf");
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: "Bariol";
+    src: url("../fonts/Bariol.otf");
 }
 /* Slideshow container */
 .slideshow-container {
@@ -208,5 +215,8 @@ ul{
 }
 
 .navigation{
+    text-decoration: none;
+}
+.navigation a:focus{
     text-decoration: none;
 }

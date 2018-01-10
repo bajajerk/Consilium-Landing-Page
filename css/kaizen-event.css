@@ -3,7 +3,7 @@
 }
 
 #about button{
-  font-family: font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #efae17;
 }
 
@@ -274,4 +274,10 @@ body {
 
 #about p{
   color: white;
+}
+
+@media screen and (max-width: 45px){
+  .main-heading{
+    font-size: 50px;
+  }
 }
