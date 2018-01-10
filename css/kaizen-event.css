@@ -267,3 +267,11 @@ body {
   font-size: 36px;
   padding-left: 15px;
 }
+
+#reg-btn{
+  color: black;
+}
+
+#about p{
+  color: white;
+}
