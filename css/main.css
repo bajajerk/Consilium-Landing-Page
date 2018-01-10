@@ -24,6 +24,11 @@
 /*Google font integration*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@font-face {
+    font-family: "Bariol";
+    src: url("../fonts/Bariol.otf");
+}
+
 #contact{
     background-color:#f1f1f1;
     font-family: 'Nunito', sans-serif;
@@ -697,10 +702,10 @@ sun ? haan awaz aarhi h ?phone neeche pada hai wah mai nbol rha hun utha ek baar
 
 @media only screen and (min-width: 768px){
     .intro img {
-	padding-left: 40px;
-    }
+		padding-left: 40px;
+	}
 }
 
-#main .header .logo{
-	font-family: 'Kelson Sans Bold';
+#about .row{
+	font-family: 'Bariol';
 }
