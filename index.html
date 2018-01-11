@@ -514,7 +514,32 @@ function showSlides() {
             <a href="mailto:fes.consilium@gmail.com?Subject=Website%20Query" class="google"><i class="fa fa-google-plus"></i></a>
         </div>
         <div class="footer-copyright">
-            <p>© 2018 FES, NSIT || Made By: Anjali, Mayank, Pratyush & Rahul</p>
+            <p>© 2018 FES, NSIT || Made By: Anjali, Mayank, <span data-toggle="modal" data-target="#myModal">
+  <!-- Launch demo modal -->
+  Pratyush
+</span>
+ & Rahul</p>
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title" id="myModalLabel">bwahahaha</h4>
+       </div>
+       <div class="modal-body">
+           <div class="">
+               <!-- <div class="numbertext">34/35</div> -->
+               <img src="images/team/pratyush.jpeg" style="width:50%">
+               <div class="banner-text" align="center" style="font-size: 18px;color:black">Pratyush Goel<br>Developer</div>
+           </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+       </div>
+     </div>
+   </div>
+ </div>
         </div>
     </footer>
     <!-- Footer section -->
@@ -527,6 +552,12 @@ function showSlides() {
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/retina.min.js"></script>
     <script src="js/modernizr.js"></script>
+<script type="text/javascript">
+$('#myModal').on('shown.bs.modal', function () {
+$('#myInput').focus()
+})
+</script>
     <script src="js/main.js"></script>
+
 </body>
 </html>
